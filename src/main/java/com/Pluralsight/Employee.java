@@ -18,5 +18,22 @@ public class Employee {
         return hoursWorked * payRate;
 
 
+
+    }
+
+    public int getEmployeeID() {
+        return employeeID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public double getPayRate() {
+        return payRate;
     }
 }
